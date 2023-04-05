@@ -33,6 +33,7 @@ function getCocktails(event) {
 
   if (!isHomePage || isMobileMenuOpen) {
     window.location = './index.html';
+
     return;
   }
 
